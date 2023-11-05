@@ -6,7 +6,7 @@ public class Main {
         System.out.print("Input first number for multiple: ");
         int num1 = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Operation: ");
+        System.out.print("Operation: ");
         String operation = scanner.nextLine();
         String plus = "+";
         String minus = "-";
