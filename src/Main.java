@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input first number for multiple: ");
+        System.out.print("Input first number for multiple: ");
         int num1 = scanner.nextInt();
         scanner.nextLine();
         System.out.println("Operation: ");
@@ -12,7 +12,7 @@ public class Main {
         String minus = "-";
         String del = "/";
         String mul = "*";
-        System.out.println("Input second number for multiple: ");
+        System.out.print("Input second number for multiple: ");
         int num2 = scanner.nextInt();
         int res = 0;
         if (operation.equals(plus)) {
@@ -24,7 +24,7 @@ public class Main {
         } else if (operation.equals(mul)) {
             res = num1 * num2;
         } else {
-            System.out.println("Wrong operation");
+            System.out.print("Wrong operation");
         }
         System.out.println("Result: " + res);
     }
